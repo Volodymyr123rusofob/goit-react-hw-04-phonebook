@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #010101;
+  flex-direction: column;
+}
+
+.boxdiv {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.div {
+  margin-top: 20px;
+}

@@ -1,0 +1,19 @@
+.list {
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font: inherit;
+  color: black;
+  background-color: tomato;
+  cursor: pointer;
+}

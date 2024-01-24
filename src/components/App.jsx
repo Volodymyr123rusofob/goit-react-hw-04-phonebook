@@ -7,7 +7,7 @@ import FilterContact from './phonebook/filter/Filter';
 
 import style from './app.module.css';
 
-const App = ({}) => {
+const App = () => {
   const [contacts, setContacts] = useState(() => {
     const contact = JSON.parse(localStorage.getItem('contact'));
     return contact || [];
